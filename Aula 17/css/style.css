@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&family=Stick+No+Bills:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: Raleway;
+    background-color: lightblue;
+    
+}
+
+header{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    color: white;
+    background-color: navy;
+    font-size: 40px;
+    font-family: Roboto;
+    padding: 20px;    
+   
+}
+
+ul{
+    list-style: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+li img{
+    width: 450px;
+    height: 250px;
+  
+}
+
+#lista1{
+    display: flex;
+    color: navy;
+    font-size: 22px;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}

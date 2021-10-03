@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.banner{
+    background-color: black;
+    
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-image: url("https://pbs.twimg.com/media/E9Ioj4rXEAI7_QS.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 105%;
+}
+
+.banner #descricao {
+    display: block;
+    font-family: Architects Daughter;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: rgba(128, 128, 128, 0.445);
+    align-items: center;
+    text-align: center;
+    margin: 0 250px 10px;
+    padding: 0 5px;
+    color: white;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+            filter: drop-shadow(5px 5px 5px #222);
+  }
+
+.banner button{
+    display: block;
+   
+    
+
+}
+.banner #img1{
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+
+.banner #img2{
+    display: flex;
+    justify-content: start;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.banner #img3{
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+    margin-right: 60px;
+}
+
+
+.banner #img1 :hover{
+    transform: scale(1.1);
+    border-style: solid;
+    border-color: white;
+}
+
+.banner #img2 :hover{
+    transform: scale(1.1);
+    border-style: solid;
+    border-color: white;
+}
+
+.banner #img3 :hover{
+    transform: scale(1.1);
+    border-style: solid;
+    border-color: white;
+    
+}
